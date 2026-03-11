@@ -48,3 +48,35 @@ Each record contains an **expected primary cost driver**.
 ---
 
 ## Repository Structure
+
+healthcare-cost-driver-evaluator
+│
+├── data/
+│   └── healthcare_metrics.csv
+│
+├── healthcare_ai/
+│   ├── __init__.py
+│   ├── evaluator.py
+│   └── prompt_tests.py
+│
+├── notebooks/
+│   └── demo_analysis.ipynb
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
