@@ -49,6 +49,7 @@ Each record contains an **expected primary cost driver**.
 
 ## Repository Structure
 
+```
 healthcare-cost-driver-evaluator
 │
 ├── data/
@@ -65,7 +66,7 @@ healthcare-cost-driver-evaluator
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-
+```
 
 
 
