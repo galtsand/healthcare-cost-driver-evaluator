@@ -1,81 +1,50 @@
-# healthcare-cost-driver-evaluator
+# Healthcare Cost Driver Evaluation Framework
 
-A compact portfolio project that evaluates whether an AI model can reason correctly about common healthcare cost drivers.
+This project explores how AI models reason about healthcare cost drivers that influence PMPM (Per Member Per Month) cost trends.
 
-## What this project demonstrates
+Healthcare organizations routinely analyze utilization, unit cost, pharmacy mix, site-of-care, and network leakage to understand total cost of care. This repository demonstrates a simple evaluation framework that simulates those scenarios and tests whether an AI system correctly identifies the underlying driver.
 
-This repo focuses on healthcare analytics reasoning, not just generic prompting. It tests whether a model can correctly identify the primary driver of PMPM movement across scenarios such as:
+---
 
-- utilization increase
-- unit cost inflation
-- pharmacy mix shift
-- site-of-care shift
-- post-acute spike
-- leakage / network inefficiency
+## Project Objective
 
-## Repo contents
+Create an analytics framework that evaluates whether AI models correctly interpret healthcare economics scenarios.
 
-- `data/healthcare_metrics.csv`  
-  Synthetic monthly healthcare analytics dataset with provider, region, and service-category variation.
+Common cost drivers simulated in the dataset include:
 
-- `src/evaluator.py`  
-  Rule-based evaluator that generates a baseline expected driver from the data and scores an AI response.
+- Utilization increases
+- Unit cost inflation
+- Pharmacy mix shifts (specialty vs generic)
+- Site-of-care shifts
+- Post-acute utilization spikes
+- Network leakage
 
-- `src/prompt_tests.py`  
-  Builds sample prompts from the dataset and shows how to test a model response.
+The evaluator compares AI reasoning to the expected cost driver.
 
-- `requirements.txt`  
-  Minimal Python dependencies.
+---
 
-## Dataset grain
+## Dataset
 
-One row per:
+A synthetic healthcare analytics dataset was generated to represent metrics commonly used in healthcare cost analysis.
+
+Key fields include:
 
 - Month
 - Region
 - Provider Group
 - Service Category
-
-The dataset includes measures commonly used in healthcare analytics:
-
-- PMPM
+- PMPM (Per Member Per Month)
 - ER visits per 1000
-- admissions per 1000
-- average cost per admission
-- specialty Rx spend PMPM
-- generic dispensing rate
-- mail order rate
-- imaging utilization per 1000
-- SNF days per 1000
-- site-of-care index
-- leakage rate
+- Admissions per 1000
+- Average Cost per Admission
+- Specialty Rx PMPM
+- Generic Dispensing Rate
+- SNF Days per 1000
+- Site-of-Care Index
+- Network Leakage
 
-## Why this matters
+Each record contains an **expected primary cost driver**.
 
-Healthcare AI models often get the following wrong:
+---
 
-1. confusing utilization with unit cost
-2. missing pharmacy mix as a cost driver
-3. failing to recognize site-of-care shifts
-4. overlooking leakage and post-acute dynamics
-
-This project is designed to make those reasoning failures visible and testable.
-
-## Quick start
-
-```bash
-pip install -r requirements.txt
-python src/evaluator.py --sample 5
-python src/prompt_tests.py --sample 3
-```
-
-## Example use case
-
-A model is asked to explain why PMPM increased for a provider group.  
-The evaluator checks whether the response correctly points to the most likely driver based on the metrics in the scenario.
-
-## Notes
-
-- The data is synthetic and intended for portfolio / demonstration use.
-- The logic is intentionally simple and transparent so the reasoning can be reviewed easily.
-- This can be extended later with an API-based LLM call, notebook demo, or RAG workflow.
+## Repository Structure
