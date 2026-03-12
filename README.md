@@ -22,13 +22,6 @@ In this example scenario, specialty pharmacy and inpatient utilization are the l
 This type of analysis helps healthcare organizations prioritize cost containment strategies, such as specialty drug management programs, care coordination to reduce inpatient admissions, and targeted utilization review.
 
 
-The goal is to demonstrate how data science can identify actionable cost drivers in healthcare
-
-
-This project explores how AI models reason about healthcare cost drivers that influence PMPM (Per Member Per Month) cost trends.
-
-Healthcare organizations routinely analyze utilization, unit cost, pharmacy mix, site-of-care, and network leakage to understand total cost of care. This repository demonstrates a simple evaluation framework that simulates those scenarios and tests whether an AI system correctly identifies the underlying driver.
-
 ---
 
 ## Project Objective
