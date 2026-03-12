@@ -77,6 +77,9 @@ healthcare-cost-driver-evaluator
 ├── notebooks/
 │   └── demo_analysis.ipynb
 │
+├── images/
+│   └── pmpm_cost_drivers.png
+│
 ├── README.md
 ├── requirements.txt
 └── .gitignore
