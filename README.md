@@ -8,6 +8,8 @@ The framework evaluates factors such as:
 - Cost category shifts
 - Predictive modeling of healthcare spend
 
+<img width="1086" height="592" alt="image" src="https://github.com/user-attachments/assets/94af27d6-7974-499f-9602-2fcb97423858" />
+
 The goal is to demonstrate how data science can identify actionable cost drivers in healthcare
 
 
