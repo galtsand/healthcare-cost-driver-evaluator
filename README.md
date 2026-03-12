@@ -27,16 +27,11 @@ Healthcare organizations routinely analyze utilization, unit cost, pharmacy mix,
 
 ## Project Objective
 
-Create an analytics framework that evaluates whether AI models correctly interpret healthcare economics scenarios.
+The goal of this project is to demonstrate how data science can identify actionable cost drivers in healthcare.
 
-Common cost drivers simulated in the dataset include:
+This project explores how AI models reason about healthcare cost drivers that influence PMPM (Per Member Per Month) cost trends.
 
-- Utilization increases
-- Unit cost inflation
-- Pharmacy mix shifts (specialty vs generic)
-- Site-of-care shifts
-- Post-acute utilization spikes
-- Network leakage
+Healthcare organizations routinely analyze factors such as utilization, unit cost, pharmacy mix, site-of-care, and network leakage to understand total cost of care. This repository demonstrates a simplified evaluation framework that simulates those scenarios and tests whether an AI system correctly identifies the underlying drivers of cost change.
 
 The evaluator compares AI reasoning to the expected cost driver.
 
