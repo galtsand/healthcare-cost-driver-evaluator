@@ -1,4 +1,15 @@
-# Healthcare Cost Driver Evaluation Framework
+# Healthcare Cost Driver Evaluator
+
+This project analyzes healthcare cost trends to identify key drivers of PMPM (Per Member Per Month) changes using Python analytics models.
+
+The framework evaluates factors such as:
+- Specialty drug utilization
+- Service utilization trends
+- Cost category shifts
+- Predictive modeling of healthcare spend
+
+The goal is to demonstrate how data science can identify actionable cost drivers in healthcare
+
 
 This project explores how AI models reason about healthcare cost drivers that influence PMPM (Per Member Per Month) cost trends.
 
