@@ -13,7 +13,13 @@ The framework evaluates factors such as:
 <img width="1086" height="592" alt="image" src="https://github.com/user-attachments/assets/dacb0c43-ab01-4f90-9c66-3104c32a5b82" />
 
 
+## Business Insight
 
+The waterfall analysis illustrates how different healthcare service categories contribute to PMPM cost change.
+
+In this example scenario, specialty pharmacy and inpatient utilization are the largest contributors to rising costs. While emergency department utilization shows a slight decline, it does not offset the growth driven by specialty medications and inpatient services.
+
+This type of analysis helps healthcare organizations prioritize cost containment strategies, such as specialty drug management programs, care coordination to reduce inpatient admissions, and targeted utilization review.
 
 
 The goal is to demonstrate how data science can identify actionable cost drivers in healthcare
