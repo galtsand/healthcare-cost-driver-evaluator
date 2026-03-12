@@ -8,6 +8,7 @@ The framework evaluates factors such as:
 - Cost category shifts
 - Predictive modeling of healthcare spend
 
+## Example Output
 
 <img width="1086" height="592" alt="image" src="https://github.com/user-attachments/assets/dacb0c43-ab01-4f90-9c66-3104c32a5b82" />
 
