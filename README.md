@@ -39,7 +39,7 @@ The evaluator framework:
 
 The waterfall analysis below illustrates how different service categories contribute to PMPM cost change.
 
-![Cost Drivers](images/pmpm_cost_drivers.png)
+<img width="1086" height="592" alt="image" src="https://github.com/user-attachments/assets/dacb0c43-ab01-4f90-9c66-3104c32a5b82" />
 
 ---
 
