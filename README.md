@@ -37,7 +37,7 @@ The evaluator framework:
 
 ## Results (Example)
 
-The waterfall analysis below illustrates how different service categories contribute to PMPM cost change.
+The waterfall analysis below highlights the primary drivers of PMPM cost change, illustrating how specialty pharmacy and inpatient utilization contribute most to rising costs.
 
 <img width="1086" height="592" alt="image" src="https://github.com/user-attachments/assets/dacb0c43-ab01-4f90-9c66-3104c32a5b82" />
 
@@ -45,10 +45,10 @@ The waterfall analysis below illustrates how different service categories contri
 
 ## Key Findings
 
-- Specialty pharmacy and inpatient utilization are the largest contributors to rising PMPM costs  
-- Cost increases are driven more by utilization intensity than demographic factors  
-- Declines in emergency department utilization do not offset growth in high-cost categories  
-- Cost driver patterns align with real-world healthcare spending dynamics  
+- Specialty pharmacy and inpatient utilization are the primary drivers of PMPM cost increases  
+- Cost growth is highly concentrated within a subset of high-cost members  
+- Utilization trends drive cost more than demographic factors  
+- Lower-cost service reductions do not offset growth in high-cost categories  
 
 ---
 
@@ -85,7 +85,15 @@ A synthetic healthcare dataset was generated to reflect real-world analytics met
 
 Each record includes an expected primary cost driver.
 
----
+
+## Business Impact
+
+These insights enable healthcare organizations to take targeted actions to manage cost and improve outcomes:
+
+- Prioritize specialty drug management programs to address high pharmacy-driven cost growth  
+- Reduce inpatient utilization through care coordination and early intervention strategies  
+- Focus care management efforts on high-cost member segments where cost is most concentrated  
+- Improve PMPM forecasting and financial planning in value-based care environments  
 
 ## Repository Structure
 
