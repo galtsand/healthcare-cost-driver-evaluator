@@ -117,7 +117,6 @@ healthcare-cost-driver-evaluator
 ├── requirements.txt
 └── .gitignore
 
-
 ---
 
 ## Key Takeaway
